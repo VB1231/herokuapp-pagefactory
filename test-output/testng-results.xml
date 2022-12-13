@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter email [[ChromeDriver: chrome on WINDOWS (43c97cbc671846d69619b576fc71a526)] -> id: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter password [[ChromeDriver: chrome on WINDOWS (43c97cbc671846d69619b576fc71a526)] -> id: password]]]>
+    </line>
+    <line>
+      <![CDATA[click on login [[ChromeDriver: chrome on WINDOWS (43c97cbc671846d69619b576fc71a526)] -> xpath: //i[contains(text(),'Login')]]]]>
+    </line>
+    <line>
+      <![CDATA[verify text email login[[ChromeDriver: chrome on WINDOWS (43c97cbc671846d69619b576fc71a526)] -> xpath: //h4[@class='subheader']]]]>
+    </line>
+    <line>
+      <![CDATA[Enter email [[ChromeDriver: chrome on WINDOWS (bf239ba6ed0d955f5edc0e4524319139)] -> id: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter password [[ChromeDriver: chrome on WINDOWS (bf239ba6ed0d955f5edc0e4524319139)] -> id: password]]]>
+    </line>
+    <line>
+      <![CDATA[click on login [[ChromeDriver: chrome on WINDOWS (bf239ba6ed0d955f5edc0e4524319139)] -> xpath: //i[contains(text(),'Login')]]]]>
+    </line>
+    <line>
+      <![CDATA[verify error message for password[[ChromeDriver: chrome on WINDOWS (bf239ba6ed0d955f5edc0e4524319139)] -> xpath: //div[contains(text(),'Your password is invalid!')]]]]>
+    </line>
+    <line>
+      <![CDATA[Enter email [[ChromeDriver: chrome on WINDOWS (2db72d83750726fa07766b8e84e63a42)] -> id: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter password [[ChromeDriver: chrome on WINDOWS (2db72d83750726fa07766b8e84e63a42)] -> id: password]]]>
+    </line>
+    <line>
+      <![CDATA[click on login [[ChromeDriver: chrome on WINDOWS (2db72d83750726fa07766b8e84e63a42)] -> xpath: //i[contains(text(),'Login')]]]]>
+    </line>
+    <line>
+      <![CDATA[verify error message[[ChromeDriver: chrome on WINDOWS (2db72d83750726fa07766b8e84e63a42)] -> xpath: //div[contains(text(),'Your username is invalid!')]]]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="15003" started-at="2022-12-12T15:13:37 GMT" finished-at="2022-12-12T15:13:52 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.UserShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="UserShouldLoginSuccessfullyWithValidCredentials" class="com.herokuapp.internet.testsuit.LoginTest"/>
+        <method signature="LoginTest.verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="verifyThePasswordErrorMessage" class="com.herokuapp.internet.testsuit.LoginTest"/>
+        <method signature="LoginTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.internet.testsuit.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.internet.testsuit.LoginTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginTest.UserShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="UserShouldLoginSuccessfullyWithValidCredentials" class="com.herokuapp.internet.testsuit.LoginTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Login Test" duration-ms="15003" started-at="2022-12-12T15:13:37 GMT" finished-at="2022-12-12T15:13:52 GMT">
+      <class name="com.herokuapp.internet.testsuit.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="setUp" is-config="true" duration-ms="5384" started-at="2022-12-12T15:13:37 GMT" finished-at="2022-12-12T15:13:42 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="inIt" is-config="true" duration-ms="22" started-at="2022-12-12T15:13:42 GMT" finished-at="2022-12-12T15:13:42 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="UserShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="UserShouldLoginSuccessfullyWithValidCredentials" duration-ms="511" started-at="2022-12-12T15:13:42 GMT" finished-at="2022-12-12T15:13:43 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter email [[ChromeDriver: chrome on WINDOWS (43c97cbc671846d69619b576fc71a526)] -> id: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter password [[ChromeDriver: chrome on WINDOWS (43c97cbc671846d69619b576fc71a526)] -> id: password]]]>
+            </line>
+            <line>
+              <![CDATA[click on login [[ChromeDriver: chrome on WINDOWS (43c97cbc671846d69619b576fc71a526)] -> xpath: //i[contains(text(),'Login')]]]]>
+            </line>
+            <line>
+              <![CDATA[verify text email login[[ChromeDriver: chrome on WINDOWS (43c97cbc671846d69619b576fc71a526)] -> xpath: //h4[@class='subheader']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UserShouldLoginSuccessfullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="tearDown" is-config="true" duration-ms="675" started-at="2022-12-12T15:13:43 GMT" finished-at="2022-12-12T15:13:43 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="setUp" is-config="true" duration-ms="2518" started-at="2022-12-12T15:13:43 GMT" finished-at="2022-12-12T15:13:46 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="inIt" is-config="true" duration-ms="1" started-at="2022-12-12T15:13:46 GMT" finished-at="2022-12-12T15:13:46 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="verifyThePasswordErrorMessage" duration-ms="489" started-at="2022-12-12T15:13:46 GMT" finished-at="2022-12-12T15:13:46 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter email [[ChromeDriver: chrome on WINDOWS (bf239ba6ed0d955f5edc0e4524319139)] -> id: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter password [[ChromeDriver: chrome on WINDOWS (bf239ba6ed0d955f5edc0e4524319139)] -> id: password]]]>
+            </line>
+            <line>
+              <![CDATA[click on login [[ChromeDriver: chrome on WINDOWS (bf239ba6ed0d955f5edc0e4524319139)] -> xpath: //i[contains(text(),'Login')]]]]>
+            </line>
+            <line>
+              <![CDATA[verify error message for password[[ChromeDriver: chrome on WINDOWS (bf239ba6ed0d955f5edc0e4524319139)] -> xpath: //div[contains(text(),'Your password is invalid!')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThePasswordErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="tearDown" is-config="true" duration-ms="727" started-at="2022-12-12T15:13:46 GMT" finished-at="2022-12-12T15:13:47 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="setUp" is-config="true" duration-ms="3436" started-at="2022-12-12T15:13:47 GMT" finished-at="2022-12-12T15:13:51 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="inIt" is-config="true" duration-ms="1" started-at="2022-12-12T15:13:51 GMT" finished-at="2022-12-12T15:13:51 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="verifyTheUsernameErrorMessage" duration-ms="500" started-at="2022-12-12T15:13:51 GMT" finished-at="2022-12-12T15:13:51 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter email [[ChromeDriver: chrome on WINDOWS (2db72d83750726fa07766b8e84e63a42)] -> id: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter password [[ChromeDriver: chrome on WINDOWS (2db72d83750726fa07766b8e84e63a42)] -> id: password]]]>
+            </line>
+            <line>
+              <![CDATA[click on login [[ChromeDriver: chrome on WINDOWS (2db72d83750726fa07766b8e84e63a42)] -> xpath: //i[contains(text(),'Login')]]]]>
+            </line>
+            <line>
+              <![CDATA[verify error message[[ChromeDriver: chrome on WINDOWS (2db72d83750726fa07766b8e84e63a42)] -> xpath: //div[contains(text(),'Your username is invalid!')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheUsernameErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.internet.testsuit.LoginTest@536aaa8d]" name="tearDown" is-config="true" duration-ms="692" started-at="2022-12-12T15:13:51 GMT" finished-at="2022-12-12T15:13:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.internet.testsuit.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- testsuite -->
+</testng-results>

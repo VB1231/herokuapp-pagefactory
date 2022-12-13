@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>TestNG:  Login Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 12 15:13:37 GMT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15003 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.herokuapp.internet.testsuit.LoginTest.UserShouldLoginSuccessfullyWithValidCredentials()'><b>UserShouldLoginSuccessfullyWithValidCredentials</b><br>Test class: com.herokuapp.internet.testsuit.LoginTest<br/>
+<a href="#Output-16373883" onClick='toggleBox("Output-16373883", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-16373883" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-16373883">
+Enter email [[ChromeDriver: chrome on WINDOWS (43c97cbc671846d69619b576fc71a526)] -> id: username]<br/>
+Enter password [[ChromeDriver: chrome on WINDOWS (43c97cbc671846d69619b576fc71a526)] -> id: password]<br/>
+click on login [[ChromeDriver: chrome on WINDOWS (43c97cbc671846d69619b576fc71a526)] -> xpath: //i[contains(text(),'Login')]]<br/>
+verify text email login[[ChromeDriver: chrome on WINDOWS (43c97cbc671846d69619b576fc71a526)] -> xpath: //h4[@class='subheader']]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.herokuapp.internet.testsuit.LoginTest@536aaa8d</td></tr>
+<tr>
+<td title='com.herokuapp.internet.testsuit.LoginTest.verifyThePasswordErrorMessage()'><b>verifyThePasswordErrorMessage</b><br>Test class: com.herokuapp.internet.testsuit.LoginTest<br/>
+<a href="#Output-1520491508" onClick='toggleBox("Output-1520491508", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1520491508" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1520491508">
+Enter email [[ChromeDriver: chrome on WINDOWS (bf239ba6ed0d955f5edc0e4524319139)] -> id: username]<br/>
+Enter password [[ChromeDriver: chrome on WINDOWS (bf239ba6ed0d955f5edc0e4524319139)] -> id: password]<br/>
+click on login [[ChromeDriver: chrome on WINDOWS (bf239ba6ed0d955f5edc0e4524319139)] -> xpath: //i[contains(text(),'Login')]]<br/>
+verify error message for password[[ChromeDriver: chrome on WINDOWS (bf239ba6ed0d955f5edc0e4524319139)] -> xpath: //div[contains(text(),'Your password is invalid!')]]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.herokuapp.internet.testsuit.LoginTest@536aaa8d</td></tr>
+<tr>
+<td title='com.herokuapp.internet.testsuit.LoginTest.verifyTheUsernameErrorMessage()'><b>verifyTheUsernameErrorMessage</b><br>Test class: com.herokuapp.internet.testsuit.LoginTest<br/>
+<a href="#Output-1791267914" onClick='toggleBox("Output-1791267914", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1791267914" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1791267914">
+Enter email [[ChromeDriver: chrome on WINDOWS (2db72d83750726fa07766b8e84e63a42)] -> id: username]<br/>
+Enter password [[ChromeDriver: chrome on WINDOWS (2db72d83750726fa07766b8e84e63a42)] -> id: password]<br/>
+click on login [[ChromeDriver: chrome on WINDOWS (2db72d83750726fa07766b8e84e63a42)] -> xpath: //i[contains(text(),'Login')]]<br/>
+verify error message[[ChromeDriver: chrome on WINDOWS (2db72d83750726fa07766b8e84e63a42)] -> xpath: //div[contains(text(),'Your username is invalid!')]]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.herokuapp.internet.testsuit.LoginTest@536aaa8d</td></tr>
+</table><p>
+</body>
+</html>
